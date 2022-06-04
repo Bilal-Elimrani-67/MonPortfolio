@@ -114,8 +114,7 @@
       letter-spacing: 0.1rem;
       font-size: 0.7rem;
 
-      a,
-      a:visited {
+      p {
         color: $color-5;
 
         &:hover {
@@ -130,6 +129,7 @@
     display: flex;
     min-height: 50px;
     margin-bottom: 0.2rem;
+    width: 100%;
 
     .id,
     .socialNetwork {
