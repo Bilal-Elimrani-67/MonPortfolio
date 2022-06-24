@@ -13,7 +13,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url("../../media/bigGates.jpg") no-repeat center/cover;
+      background: url("../../media/react.jpg") no-repeat center/cover;
       z-index: -1;
       filter: brightness(30%);
     }
@@ -27,38 +27,47 @@
       h1 {
         font-size: 5rem;
         font-family: $font-3;
-        color: $color-5;
+        color: $white;
         text-transform: uppercase;
-        text-shadow: 3px 6px 2px $black;
+        // text-shadow: 3px 6px 2px $black;
       }
       h2 {
         font-size: 2.5rem;
         padding: 1.5rem 0 7rem;
-        color: $color-3;
-        text-shadow: 1px 4px 1px $black;
+        color: $color-5;
+        text-shadow: 1px 4px 1px $white;
       }
+
       .pdf {
         a {
           font-size: 1.5rem;
-          background: $color-3;
+          background: $white;
           padding: 1rem 2rem;
           border-radius: $borderRadius;
-          box-shadow: 0 5px 1px rgb(15, 15, 15);
+          box-shadow: 0 5px 1px $color-5;
           transition: 0.2s ease;
+          color: $color-5;
 
           &:hover {
-            background: $color-4;
+            background-color: $color-5;
+            color: $white;
+            box-shadow: none;
           }
         }
       }
     }
   }
 }
-@media screen and (max-width: 850px) {
+
+@media (min-width: 581px) and (max-width: 850px) {
   .homeContent {
     margin: 0 !important;
   }
+  h1 {
+    font-size: 3.5rem !important;
+  }
 }
+
 @media screen and (max-width: 580px) {
   .homeContent {
     &:after {

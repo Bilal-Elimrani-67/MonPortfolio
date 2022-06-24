@@ -75,7 +75,7 @@ const Navigation = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-codepen"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </li>
         </ul>

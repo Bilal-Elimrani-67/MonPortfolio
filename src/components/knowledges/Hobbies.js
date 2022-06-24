@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faRunning,
+  faHiking,
+  faDumbbell,
+  faEarth,
+  faBiking,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Hobbies = () => {
   return (
@@ -6,24 +14,19 @@ const Hobbies = () => {
       <h3>Intérêts</h3>
       <ul>
         <li className="hoby">
-          <i className="fas fa-running"></i>
-          <span>Course à pied</span>
+          <FontAwesomeIcon icon={faBiking}></FontAwesomeIcon> Cyclisme
         </li>
         <li className="hoby">
-          <i className="fas fa-running"></i>
-          <span>Course à pied</span>
+          <FontAwesomeIcon icon={faHiking}></FontAwesomeIcon> Randonnée
+        </li>
+
+        <li className="hoby">
+          <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> Musculation &
+          Fitness
         </li>
         <li className="hoby">
-          <i className="fas fa-running"></i>
-          <span>Course à pied</span>
-        </li>
-        <li className="hoby">
-          <i className="fas fa-running"></i>
-          <span>Course à pied</span>
-        </li>
-        <li className="hoby">
-          <i className="fas fa-running"></i>
-          <span>Course à pied</span>
+          <FontAwesomeIcon icon={faEarth}></FontAwesomeIcon> Voyage
+          <span></span>
         </li>
       </ul>
     </div>
