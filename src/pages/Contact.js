@@ -77,7 +77,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <h4>CodePen</h4>
-              <i className="fab fa-codepen"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </ul>
         </div>
