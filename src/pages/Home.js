@@ -8,7 +8,7 @@ const Home = () => {
       <div className="homeContent">
         <div className="content">
           <h1>Bilal El Imrani</h1>
-          <h2>Développeur Front-end</h2>
+          <h2>UX/UI Designer</h2>
           <div className="pdf">
             <a href="./media/CV.pdf" target="_blank">
               Télécharger CV

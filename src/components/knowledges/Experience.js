@@ -5,7 +5,7 @@ const Experience = () => {
     <div className="experience">
       <h3>Expérience</h3>
       <div className="exp-1">
-        <h4>Préparateur de matières (Kitting) - Merck</h4>
+        <h4>Opérateur kitting - Merck</h4>
         <h5>En cours</h5>
         <li>Préparation de la matière pour la production.</li>
         <li>Gestion de stock (sortie, transactions) avec Oracle.</li>

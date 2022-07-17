@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="socialNetwork">
           <ul>
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/belimrani/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -56,7 +56,7 @@ const Contact = () => {
               <i className="fab fa-linkedin"></i>
             </a>
             <a
-              href="https://www.google.com"
+              href="https://github.com/Bilal-Elimrani-67?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,7 +64,7 @@ const Contact = () => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://www.google.com"
+              href="https://twitter.com/BilalElim"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,11 +72,11 @@ const Contact = () => {
               <i className="fab fa-twitter"></i>
             </a>
             <a
-              href="https://www.google.com"
+              href="https://www.instagram.com/bilal.elim/?hl=fr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>CodePen</h4>
+              <h4>Instagram</h4>
               <i className="fab fa-instagram"></i>
             </a>
           </ul>

@@ -10,7 +10,7 @@ const OtherSkills = () => {
             <i className="fas fa-check-square"></i> Anglais B1
           </li>
           <li>
-            <i className="fas fa-check-square"></i> SEO
+            <i className="fas fa-check-square"></i> SEO/SEA
           </li>
           <li>
             <i className="fas fa-check-square"></i> Base de données

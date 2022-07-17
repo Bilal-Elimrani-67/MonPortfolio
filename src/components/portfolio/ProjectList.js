@@ -9,9 +9,9 @@ class ProjectList extends Component {
       { id: 1, value: "html & css" },
       { id: 1, value: "javascript" },
       { id: 1, value: "react" },
-      { id: 1, value: "figma" },
+      { id: 1, value: "UX/UI" },
     ],
-    selectedRadio: "html & css",
+    selectedRadio: "react",
   };
 
   handleRadio = (event) => {

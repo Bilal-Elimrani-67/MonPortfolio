@@ -44,7 +44,7 @@ const Navigation = () => {
         <ul>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/belimrani/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://github.com/Bilal-Elimrani-67?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://twitter.com/BilalElim"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.instagram.com/bilal.elim/?hl=fr"
               target="_blank"
               rel="noopener noreferrer"
             >
