@@ -27,7 +27,7 @@ class Languages extends Component {
         <ProgressBar
           frameworks={frameworks}
           className="frameworksDisplay"
-          title="Logiciels & Outils "
+          title="Logiciels"
         />
       </div>
     );

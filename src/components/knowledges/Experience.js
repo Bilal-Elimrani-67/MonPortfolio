@@ -2,25 +2,29 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="experience">
-      <h3>Expérience</h3>
+    <div className="diplomes">
+      <h3>Diplomes</h3>
       <div className="exp-1">
-        <h4>Opérateur kitting - Merck</h4>
-        <h5>En cours</h5>
-        <li>Préparation de la matière pour la production.</li>
-        <li>Gestion de stock (sortie, transactions) avec Oracle.</li>
+        <h4>Bachelor UX/UI Designer</h4>
+        <h5>STUDI, Soissons</h5>
+        <li>En cours depuis Aout 2022</li>
       </div>
       <div className="exp-2">
-        <h4>Agent logistique - Gaggenau, Merck, Mecatherm, Ledvance</h4>
-        <h5>Juin 2016 à Janvier 2020</h5>
-        <li>Assemblage, magasinage et préparation de commandes.</li>
-        <li>Travail d'équipe avec quotas journaliers.</li>
+        <h4>Développeur Web (BAC+2 RNCP) </h4>
+        <h5>OpenClassrooms, Paris</h5>
+
+        <li>De Mars 2020 à Avril 2021</li>
       </div>
       <div className="exp-3">
-        <h4>Commercial - France Solar</h4>
-        <h5>Décembre 2013 à Juillet 2014</h5>
-        <li>Propection et vente de panneaux photovoltaïques.</li>
-        <li>Etude de faisabilité et montage de dossier de financement.</li>
+        <h4>BTS Technico-Commercia (Niveau)</h4>
+        <h5>Lycée Henri Meck, Molsheim</h5>
+
+        <li>Septembre 2011 à Juin2013</li>
+      </div>
+      <div className="exp-3">
+        <h4>BAC STG</h4>
+        <h5>Lycée Henri Meck, Molsheim</h5>
+        <li>Septembre 2011 à Juin2013</li>
       </div>
     </div>
   );
