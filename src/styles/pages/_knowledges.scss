@@ -48,7 +48,7 @@
       }
 
       .years {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
         display: flex;
         justify-content: space-between;
         color: $white;
@@ -190,6 +190,50 @@
     }
   }
 }
+
+@media (min-width: 950.4px) and (max-width: 1047.2px) {
+  .knowledgesContent {
+    h3 {
+      font-size: 1.2rem !important;
+    }
+  }
+}
+
+@media (min-width: 850.4px) and (max-width: 932.8px) {
+  .knowledgesContent {
+    .languagesList {
+      li {
+        font-size: 1rem;
+      }
+    }
+    .experience {
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 500.8px) and (max-width: 602.8px) {
+  .languagesList {
+    li {
+      font-size: 0.88rem;
+    }
+  }
+}
+
+@media (min-width: 337.6px) and (max-width: 395px) {
+  .knowledgesContent {
+    .languagesFrameworks {
+      .years {
+        span:nth-child(2)::before {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 950px) {
   .knowledgesContent {
     h3 {
@@ -207,6 +251,7 @@
     }
   }
 }
+
 @media screen and (max-width: 850px) {
   .knowledgesContent {
     h4 {
@@ -218,6 +263,7 @@
     }
   }
 }
+
 @media screen and (max-width: 500px) {
   .knowledgesContent {
     display: grid !important;
