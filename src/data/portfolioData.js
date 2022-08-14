@@ -36,4 +36,13 @@ export const portfolioData = [
     info: "Projet OC : L'objectif de ce projet était d'intégrer la maquette puis de dynamiser cette page web avec des animations CSS. Ce site propose le menu de 4 grands restaurants parisiens, de faire une réservation en ligne et de visualiser la composition des menus.",
     picture: "./media/ohmyfood.png",
   },
+  {
+    id: 5,
+    name: "Sunnyside",
+    languages: ["Langages WEB"],
+    languagesIcons: ["fa fa-html5", "fab fa-css3-alt"],
+    source: "https://github.com/Bilal-Elimrani-67/ProjectYT-Sunnyside",
+    info: "Projet Fun : Landing page simple pour apprendre les flex.",
+    picture: "./media/sunnyside.png",
+  },
 ];
