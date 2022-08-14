@@ -201,6 +201,8 @@
     }
   }
 }
+
+//RESPONSIVE
 @media (max-width: 650px) and (min-width: 521px) {
   .portfolioContent {
     .project {
@@ -215,6 +217,7 @@
     }
   }
 }
+
 @media (max-width: 520px) {
   .radioDisplay {
     display: none;
@@ -236,6 +239,7 @@
     }
   }
 }
+
 @media (max-width: 340px) {
   .radioDisplay {
     display: none !important;

@@ -59,12 +59,13 @@
   }
 }
 
+//RESPONSIVE
 @media (min-width: 840.4px) and (max-width: 1015px) {
   .homeContent {
     margin: 0 !important;
   }
   h1 {
-    font-size: 3.9rem !important;
+    font-size: 3.8rem !important;
   }
 }
 
@@ -87,6 +88,14 @@
     }
     h2 {
       font-size: 1.8rem !important;
+    }
+  }
+}
+
+@media (min-width: 290px) and (max-width: 446px) {
+  .homeContent {
+    h1 {
+      font-size: 2rem !important;
     }
   }
 }
