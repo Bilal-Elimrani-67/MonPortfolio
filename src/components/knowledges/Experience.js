@@ -24,7 +24,9 @@ const Experience = () => {
         <li>De Mars 2020 à Avril 2021</li>
       </div>
       <div className="exp-3">
-        <h4>BTS Technico-Commercia (Niveau)</h4>
+        <h4>
+          BTS Technico-Commercial (Niveau) <i class="fas fa-graduation-cap"></i>
+        </h4>
         <h5>
           <i className="fas fa-map-marker-alt"></i>Lycée Henri Meck, Molsheim
         </h5>
